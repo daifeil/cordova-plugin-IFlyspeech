@@ -1,0 +1,45 @@
+{
+  "_from": "git+https://github.com/todaynowork/cordova-do-app-name.git",
+  "_id": "cordova-do-app-name@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha1-dZtClgArpJDpko4R6iAuRDEJwsw=",
+  "_location": "/cordova-do-app-name",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "https://github.com/todaynowork/cordova-do-app-name.git",
+    "rawSpec": "https://github.com/todaynowork/cordova-do-app-name.git",
+    "saveSpec": "git+https://github.com/todaynowork/cordova-do-app-name.git",
+    "fetchSpec": "https://github.com/todaynowork/cordova-do-app-name.git",
+    "gitCommittish": "master"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://github.com/daifeil/cordova-plugin-IFlyspeech.git",
+  "_spec": "https://github.com/daifeil/cordova-plugin-IFlyspeech.git",
+  "_where": "/Users/daifeil/workspace/tss_mobiletw/tssMobile",
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/daifeil/cordova-plugin-IFlyspeech.git/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    
+  },
+  "deprecated": false,
+  "description": "With using cordova config file plugin, change android app name align with iOS app name ( from \"\\<widget>\\<name>\" to  \"\\<platform name=\"ios\">\\<config-file parent=\"CFBundleDisplayName\" platform=\"ios\" target=\"*-Info.plist\">             \\<string>运维服务云</string>         \\</config-file>\")",
+  "homepage": "https://github.com/daifeil/cordova-plugin-IFlyspeech.git#readme",
+  "license": "ISC",
+  "main": "index.js",
+  "name": "cordova-do-app-name",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daifeil/cordova-plugin-IFlyspeech.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}
