@@ -8,3 +8,5 @@
 ## Installation
 
 cordova plugin add https://github.com/daifeil/cordova-plugin-IFlyspeech
+## How to use
+Refer to: https://blog.csdn.net/Neokekeke/article/details/78469434
