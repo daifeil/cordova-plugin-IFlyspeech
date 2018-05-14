@@ -1,5 +1,5 @@
 {
-  "_from": "https://github.com/daifeil/cordova-plugin-IFlyspeech.git",
+  "_from": "https://github.ibm.com/TssCloudTM/cordova-plugin-IFlyspeech.git",
   "_id": "cordova-plugin-xunfeiListenSpeaking@1.0.0",
   "_inBundle": false,
   "_integrity": "sha1-dZtClgArpJDpko4R6iAuRDEJwsw=",
@@ -7,36 +7,36 @@
   "_phantomChildren": {},
   "_requested": {
     "type": "git",
-    "raw": "https://github.com/daifeil/cordova-plugin-IFlyspeech.git",
-    "rawSpec": "https://github.com/daifeil/cordova-plugin-IFlyspeech.git",
-    "saveSpec": "https://github.com/daifeil/cordova-plugin-IFlyspeech.git",
-    "fetchSpec": "https://github.com/daifeil/cordova-plugin-IFlyspeech.git",
+    "raw": "https://github.ibm.com/TssCloudTM/cordova-plugin-IFlyspeech.git",
+    "rawSpec": "https://github.ibm.com/TssCloudTM/cordova-plugin-IFlyspeech.git",
+    "saveSpec": "https://github.ibm.com/TssCloudTM/cordova-plugin-IFlyspeech.git",
+    "fetchSpec": "https://github.ibm.com/TssCloudTM/cordova-plugin-IFlyspeech.git",
     "gitCommittish": "master"
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "https://github.com/daifeil/cordova-plugin-IFlyspeech.git",
-  "_spec": "https://github.com/daifeil/cordova-plugin-IFlyspeech.git",
+  "_resolved": "https://github.ibm.com/TssCloudTM/cordova-plugin-IFlyspeech.git",
+  "_spec": "https://github.ibm.com/TssCloudTM/cordova-plugin-IFlyspeech.git",
   "_where": "/Users/daifeil/workspace/tss_mobiletw/tssMobile",
   "author": "",
   "bugs": {
-    "url": "https://github.com/daifeil/cordova-plugin-IFlyspeech.git/issues"
+    "url": "https://github.ibm.com/TssCloudTM/cordova-plugin-IFlyspeech.git/issues"
   },
   "bundleDependencies": false,
   "dependencies": {
-
+    
   },
   "deprecated": false,
   "description": "With using cordova config file plugin, change android app name align with iOS app name ( from \"\\<widget>\\<name>\" to  \"\\<platform name=\"ios\">\\<config-file parent=\"CFBundleDisplayName\" platform=\"ios\" target=\"*-Info.plist\">             \\<string>运维服务云</string>         \\</config-file>\")",
-  "homepage": "https://github.com/daifeil/cordova-plugin-IFlyspeech.git#readme",
+  "homepage": "https://github.ibm.com/TssCloudTM/cordova-plugin-IFlyspeech.git#readme",
   "license": "ISC",
   "main": "index.js",
   "name": "cordova-plugin-xunfeiListenSpeaking",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/daifeil/cordova-plugin-IFlyspeech.git"
+    "url": "git+https://github.ibm.com/TssCloudTM/cordova-plugin-IFlyspeech.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
