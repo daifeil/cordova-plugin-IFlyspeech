@@ -22,7 +22,7 @@
 @property(nonatomic,assign) int errorCode;
 
 /*!
- *  错误码类
+ *  错误码类型
  */
 @property(nonatomic,assign) int errorType;
 
