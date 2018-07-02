@@ -17,7 +17,7 @@
 #define STR_PROGRESS @"progress"
 
 // always replace the appid and the SDK with what you get from voicecloud.cn
-#define SPEECH_APP_ID @"5a0c3ae8"
+#define SPEECH_APP_ID @"5b304592"
 
 
 @interface CDVSpeech()
