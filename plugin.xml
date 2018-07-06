@@ -12,7 +12,7 @@
             </feature>
         </config-file>
 
-         <config-file target="AndroidManifest.xml" parent="/manifest">  
+         <config-file target="AndroidManifest.xml" parent="/manifest">
               <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
 			    <uses-permission android:name="android.permission.RECORD_AUDIO" />
 			    <uses-permission android:name="android.permission.INTERNET" />
@@ -28,12 +28,12 @@
 			     <!-- 移动统计分析 -->
 			    <meta-data
 			        android:name="IFLYTEK_APPKEY"
-			        android:value="5add7603" />
+			        android:value="5995924d" />
 			    <meta-data
 			        android:name="IFLYTEK_CHANNEL"
 			        android:value="Android_Demo" />
 
-        </config-file> 
+        </config-file>
 		<config-file target="AndroidManifest.xml" parent="/manifest/application">
 			<activity android:name="com.thomas.xunfeilistenspeaking.XunfeiDialogActivity"
                   android:theme="@android:style/Theme.Translucent.NoTitleBar">
@@ -76,13 +76,13 @@
         <source-file src="src/android/src/com/thomas/xunfeilistenspeaking/JsonParser.java" target-dir="src/com/thomas/xunfeilistenspeaking"/>
         <source-file src="src/android/src/com/thomas/xunfeilistenspeaking/SettingTextWatcher.java" target-dir="src/com/thomas/xunfeilistenspeaking"/>
         <source-file src="src/android/src/com/thomas/xunfeilistenspeaking/XunfeiDialogActivity.java" target-dir="src/com/thomas/xunfeilistenspeaking"/>
-        
+
 
         <!--res-->
 		<config-file target="res/values/strings.xml" parent="/resources">
              <!--<string name="app_name">讯飞语音示例</string>-->
 			    <!-- 请替换成在语音云官网申请的appid -->
-			    <string name="app_id">5add7603</string>
+			    <string name="app_id">5995924d</string>
 			    <string name="example_explain">本示例为讯飞语音Android平台开发者提供语音听写、语法识别、语义理解和语音合成等代码样例，旨在让用户能够依据该示例快速开发出基于语音接口的应用程序。</string>
 			    <string name="text_tts_source">科大讯飞作为中国最大的智能语音技术提供商，在智能语音技术领域有着长期的研究积累，并在中文语音合成、语音识别、口语评测等多项技术上拥有国际领先的成果。科大讯飞是我国唯一以语音技术为产业化方向的“国家863计划成果产业化基地”…</string>
 			    <string name="text_tts_source_en">iFLYTEK is a national key software enterprise dedicated to the research of intelligent speech and language technologies, development of software and chip products, provision of speech information services, and integration of E-government systems. The intelligent speech technology of iFLYTEK, the core technology of the company, represents the top level in the world.</string>
@@ -235,7 +235,7 @@
 			    </string-array>
         </config-file>
     </platform>
-    
+
     <platform name="ios">
         <js-module name="speech" src="www/Speech.js">
 <!--            <clobbers target="navigator.speech" />-->
@@ -246,20 +246,20 @@
                 <param name="ios-package" value="CDVSpeech" />
             </feature>
         </config-file>
-        
+
         <config-file target="*-Info.plist" parent="NSMicrophoneUsageDescription">
             <string></string>
         </config-file>
-        
+
         <header-file src="src/ios/CDVSpeech.h" />
         <source-file src="src/ios/CDVSpeech.m" />
-        
+
         <framework src="AVFoundation.framework" />
         <framework src="AddressBook.framework" />
         <framework src="AudioToolbox.framework" />
         <framework src="SystemConfiguration.framework" />
         <framework src="QuartzCore.framework" />
-        
+
         <framework src="libz.tbd" />
         <framework src="libc++.tbd" />
         <framework src="UIKit.framework" />
@@ -268,8 +268,8 @@
         <framework src="CoreTelephony.framework" />
         <framework src="CoreLocation.framework" />
 	<framework src="Contacts.framework" />
-        
+
         <framework src="src/ios/iflyMSC.framework" custom="true" />
     </platform>
-    
+
 </plugin>
